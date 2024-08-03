@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.zindex-0{
+    position: absolute;
+    z-index: 0;
+}
+.zindex-10{
+    position: absolute;
+    z-index: 10;
+    margin-top: 200px;
+    background-color: aqua;
+}
+.main-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.bg-blue{
+    background-color: rgb(100, 100, 224);
+}
