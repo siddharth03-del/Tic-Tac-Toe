@@ -186,7 +186,7 @@ function checkwin(row, col){
     check1 = true;
     check2 = true;
     let j = 2;
-    for(let i = 2; i >= 0; i--){
+    for(let i = 0; i < 3; i++){
         console.log(i, " ", j,  " " , matrix[i][j])
         if(matrix[i][j] != 0){
             check1 = false;
